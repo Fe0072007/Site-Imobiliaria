@@ -199,14 +199,20 @@
 }
 /* PRINCIPAL */
 /* Destaque */
+#centerMain{
+
+    display: flex;
+    justify-content: center;
+
+}
 #destaque{
 
-    width: 80%;
-    height: 525px;
+    width: 60%;
+    height: 515px;
     margin: auto;
     margin-top: 50px;
     display: flex;
-    background-color: antiquewhite;
+    position: absolute;
 }
 #imagem{
 
@@ -222,7 +228,34 @@
     background-color: #134985;
     height: 500px;
     width: 400px;
-    box-shadow: -6px -4px 10px  black;
-    border-radius: 10px; 
-    
+    border-radius: 10px;
+    align-self: end;
+    position: relative;
+    right: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#textoDestaque{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+
+}
+#tituloDestaque{
+
+    color: white;
+    font-family: Montserrat;
+    font-weight: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+    word-spacing: 6px;
+}
+#cidadeEstado{
+    display: flex;
+    align-self: start;
+    color: aliceblue;
 }
