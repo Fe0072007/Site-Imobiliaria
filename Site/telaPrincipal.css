@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
 
     margin: 0px;
@@ -15,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    font-family: Montserrat;
 
 }
 #LoCa{
@@ -38,7 +39,7 @@
     transition: all 150ms ease-in-out;
     border-radius: 5px;
     cursor: pointer;
-
+    
 }
 
 
@@ -55,6 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
 
 }
 #menu{
@@ -328,11 +330,62 @@
     display: flex;
     color: white;
     font-family: Montserrat;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    flex-direction: row;
 
 }
-#sep2-uppart{
+#sep2-division{
+
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#sep2-division1{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itens-division1{
+
+    text-decoration: underline;
+    color: white;
+
+}
+#sep2-division2{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+#sep2-division2 > .sep2-division2-li{
 
     display: flex;
-    
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+.sep2-division2-li > img{
+
+    margin-right: 5px;
+
+}
+.itens-division2{
+
+    text-decoration: underline;
+    color: white;
+
+}
+.itens-division2::after{
+
+    text-decoration: underline;
 
 }
