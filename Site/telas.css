@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+}
+body{
+
+    background-color: rgb(242, 242, 242);
+
+}
+/* CABECALHO E BARRA DE NAVEGACAO */
+#cabecalho1{
+
+    background-color: #134985;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Montserrat;
+
+}
+#LoCa{
+
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+
+}
+.botoes{
+
+    width: 95px;
+    height: 35px;
+    font-size: 16px;
+    background-color: transparent;
+    outline: solid #5D82AE 2px;
+    color: white;
+    transition: all 150ms ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.botoes:hover{
+
+    background-color: #5D82AE;
+
+}
+#barraNavegacao{
+
+    background-color: #5D82AE;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+#menu{
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.menuItens{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.linkMenu{
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 150ms ease-in-out;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 60px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+.linkMenu:hover{
+
+    background-color: #134985;
+    color: white;
+
+}
+#inicio{
+
+    background-color: #134985;
+
+}
+.linkMenu::after{
+
+    text-decoration: none;
+    color: black;
+
+
+}
+/* FILTRO */
+#caixaFiltro{
+
+    background-image: url(casaPraia3.jpg);
+    background-position: left center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    z-index: 9999;
+    
+
+}
+#sombra{
+
+    background-color: rgba(0, 0, 0, 0.459);
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#filtro{
+    background-color: white;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 16px;
+
+}
+#menuFiltro{
+
+    list-style: none;
+    width: 90%;
+    height: 100px;
+    display: flex;
+}
+.itensFiltro{
+
+    width: 20%;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: end;
+}
+.selectsFiltro{
+
+    width: 95%;
+    height: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: solid #134985 1px;
+    align-self: end;
+
+}
+.selectsFiltro:active {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: solid #134985 1px;
+}
+.inputsFiltro{
+
+    width: 95%;
+    height: 31px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: solid #134985 1px;
+    align-self: end;
+
+}
+#submitPesquisa{
+
+    font-family: Montserrat;
+    width: 30%;
+    height: 33px;
+    display: flex;
+    align-self: end;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #134985;
+    color: white;
+    font-size: 16px;
+
+}
+/* PRINCIPAL */
+/* Destaque */
+#centerMain{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#destaque{
+
+    width: 60%;
+    height: 515px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+
+}
+#imagem{
+
+    background-image: url('casaDestaque.jpg');
+    background-position: center center;
+    width: 80%;
+    height: 500px;
+    background-size: 100% 500px;
+
+}
+#descDestaque{
+
+    background-color: #134985;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    align-self: end;
+    right: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 2px 2px 10px #000;
+
+}
+#textoDestaque{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+
+}
+#tituloDestaque{
+
+    color: white;
+    font-family: Montserrat;
+    font-weight: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+    word-spacing: 6px;
+}
+#cidadeEstado{
+    display: flex;
+    align-self: start;
+    color: aliceblue;
+    opacity: 70%;
+    font-family: Montserrat;
+
+}
+#casas1{
+
+    width: 90%;
+    height: 400px;
+    list-style: none;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    font-family: Montserrat;
+
+}
+.itens-casas{
+
+    width: 280px;
+    height: 350px;
+    margin-right: 50px;
+    background-color:#134985;
+    border-radius: 10px;
+    color: white;
+    box-shadow:  2px 2px 10px rgba(0, 0, 0, 0.638);
+}
+.itens-casas-div{
+
+    width: 100%;
+    height: 170px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 100ms ease-in;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+.itens-casas:last-of-type{
+
+    margin-right: 0px;
+
+}
+#casa2{
+
+    background-image: url('casa3.jpg');
+
+}
+#casa3{
+
+    background-image: url('casa4.webp');
+
+}
+#casa4{
+
+    background-image: url('casa5.jpg');
+
+}
+.btn-casas{
+
+    width: 50px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.478);
+
+}
+#local-casa1{
+
+    margin-left: 5px;
+    margin-bottom: 10px;
+
+}
+#desc-casa1{
+
+    font-size: 18px;
+    font-weight: 300px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#dorm-casa1{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    width: 257px;
+    margin-right: 10px;
+
+}
+#gar-casa1{
+
+    margin-left: 5px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* RODAPÉ */
+#rodape{
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 100px;
+
+}
+.sep{
+
+    background-color: #134985;
+    width: 50%;
+    font-size: 14px;
+}
+#sep1{
+
+    box-shadow: 2px 10px 40px -1px black;
+    z-index: 9999;
+    display: flex;
+    color: white;
+    font-family: Montserrat;
+    align-items: center;
+    justify-content: justify;
+    flex-wrap: wrap;
+}
+#sep1-uppart{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+#imgRodape{
+
+    width: 350px;
+
+}
+#contatos{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#seasideRodape{
+
+    font-size: 20px;
+
+}
+#copy{
+
+    margin-left: 30px;
+
+}
+#sep2{
+
+    z-index: 1;
+    display: flex;
+    color: white;
+    font-family: Montserrat;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    flex-direction: row;
+
+}
+#sep2-division{
+
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#sep2-division1{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itens-division1{
+
+    text-decoration: underline;
+    color: white;
+
+}
+#sep2-division2{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+#sep2-division2 > .sep2-division2-li{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+.sep2-division2-li > img{
+
+    margin-right: 5px;
+
+}
+.itens-division2{
+
+    text-decoration: underline;
+    color: white;
+
+}
+.itens-division2::after{
+
+    text-decoration: underline;
+
+}
+
