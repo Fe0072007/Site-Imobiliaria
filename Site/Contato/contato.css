@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+}
+body{
+
+    background-color: rgb(242, 242, 242);
+    font-family: Montserrat;
+
+}
+/* CABECALHO E BARRA DE NAVEGACAO */
+#cabecalho1{
+
+    background-color: #134985;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Montserrat;
+
+}
+#LoCa{
+
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+
+}
+.botoes{
+
+    width: 95px;
+    height: 35px;
+    font-size: 16px;
+    background-color: transparent;
+    outline: solid #5D82AE 2px;
+    color: white;
+    transition: all 150ms ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.botoes:hover{
+
+    background-color: #5D82AE;
+
+}
+#barraNavegacao{
+
+    background-color: #5D82AE;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+#menu{
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.menuItens{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.linkMenu{
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 150ms ease-in-out;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 60px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+.linkMenu:hover{
+
+    background-color: #134985;
+    color: white;
+
+}
+#contato{
+
+    background-color: #134985;
+
+}
+#centerContato{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+#formContato{
+
+    width: 30%;
+
+}
+.inputsContato{
+
+    width: 90%;
+    height: 40px;
+    margin-top: 5px;
+    border: solid gray 1px;
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+#msg{
+
+    min-height: 150px;
+    min-width: 90%;
+    max-width: 90%;
+    padding-top: 10px;
+    font-family: Montserrat;
+
+}
+.text-form-contato{
+
+    margin-top: 20px;
+
+}
+.text-form-contato:first-of-type{
+
+    margin-top: 0px;
+
+}
+#termsp{
+
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+#termsp a{
+
+    text-decoration: underline;
+    color: #134985;
+
+}
+#enviar{
+
+    width: 90%;
+    margin-top: 20px;
+    background-color: #134985;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+}

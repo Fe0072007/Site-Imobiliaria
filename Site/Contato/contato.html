@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeaSide Retreats</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header id="cabecalho1">
+
+        <img src="../Início/Logo Seaside.png" alt="Logo" width="230px">
+        <div id="LoCa">
+            <a id="linkLogin" href="../Login/login.html"><button id="login" class="botoes" >Login</button></a>
+            <a id="linkCad" href="../Cadastro/cadastro.html"><button class="botoes" id="login">Cadastre-se</button></a>
+        </div>
+
+    </header>
+    <nav id="barraNavegacao">
+
+        <ul id="menu">
+
+            <li class="menuItens"><a class="linkMenu" href="../Início/index.html" id="inicio">Início</a></li>
+            <li class="menuItens"><a class="linkMenu" href="../Sobre/sobre.html" id="sobre">Sobre</a></li>
+            <li class="menuItens"><a class="linkMenu" href="../Contato/contato.html" id="contato">Contato</a></li>
+            <li class="menuItens"><a class="linkMenu" href="../Financie/financie.html" id="financie">Financie</a></li>
+            <li class="menuItens"><a class="linkMenu" href="../Negocie/negocio.html" id="negocie">Negocie seu Imóvel</a></li>
+
+        </ul>
+
+    </nav>
+    <div id="centerContato">
+
+        <form action="#" id="formContato" onsubmit="return msgContato()" name="msg">
+
+            <p class="text-form-contato">Nome<input type="text" name='nome' class="inputsContato" id="nome" placeholder="Digite seu nome"></p>
+            <p class="text-form-contato">Email<input type="text" name="email" class="inputsContato" id="email" placeholder="Digite seu email"></p>
+            <p class="text-form-contato">Telefone<input type="text" class="inputsContato" id="tel" name="tel" placeholder="Digite seu telefone"></p>
+            <p class="text-form-contato">Mensagem<textarea type="text" class="inputsContato" name="msg" id="msg" placeholder="Digite sua mensagem"></textarea></p>
+            <p id="termsp"><input type="checkbox" name="terms" id="terms" onclick="checar()"> Concordo com os <a href="">Termos de Privacidade</a></p>
+            <span id="erroterms"></span>
+            <input type="submit" value="Enviar" name="enviar" id="enviar" class="inputsContato">
+
+
+        </form>
+
+    </div>
+    <script src="contato.js"></script>
+</body>
+</html>
