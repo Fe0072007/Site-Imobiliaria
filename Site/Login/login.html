@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeaSide Retreats - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="div-principal">
+        <div class="div-esquerda">
+            <img src="Logo Seaside.png" alt="SeaSide Retreats" class="logo">
+        </div>
+        <div class="div-direita">
+            <div class="login">
+                <h1>SeaSide Retreats</h1>
+                <div class="botoes">
+                    <button id="clienteBt" onclick="Cliente()">Cliente</button>
+                    <button id="vendedorBt" onclick="Vendedor()">Vendedor</button>
+                </div>
+                <form id="login" onsubmit="return Formulario()" action="../Início/index.html">
+                    <div class="respostas">
+                        <label for="identificador" id="identifierLabel">E-mail</label>
+                        <input type="text" id="identificador" name="identifier">
+                        <span id="identErro" class="erroMensagem"></span>
+                    </div>
+                    <div class="respostas">
+                        <label for="password">Senha</label>
+                        <input type="password" id="senha" name="password">
+                        <span id="senhaErro" class="erroMensagem"></span>
+                    </div>
+                    <button type="submit">Acessar Conta</button>
+                </form>
+                <p>Não tem uma conta? <a href="../Cadastro/cadastro.html">Cadastre-se já</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
