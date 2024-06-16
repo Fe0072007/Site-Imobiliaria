@@ -118,6 +118,7 @@ body{
 
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 
 }
 #bancos{
@@ -131,7 +132,8 @@ body{
 }
 .bancosItem{
 
-    
+    margin-left: 20px;
+    margin-top: 10px;
 
 }
 .btndiv{
@@ -155,5 +157,129 @@ body{
     justify-content: center;
     color: white;
     text-decoration: none;
+
+}
+/* RODAPÉ */
+#rodape{
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 100px;
+
+}
+.sep{
+
+    background-color: #134985;
+    width: 50%;
+    font-size: 14px;
+}
+#sep1{
+
+    box-shadow: 2px 10px 40px -1px black;
+    z-index: 9999;
+    display: flex;
+    color: white;
+    font-family: Montserrat;
+    align-items: center;
+    justify-content: justify;
+    flex-wrap: wrap;
+}
+#sep1-uppart{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+#imgRodape{
+
+    width: 350px;
+
+}
+#contatos{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#seasideRodape{
+
+    font-size: 20px;
+
+}
+#copy{
+
+    margin-left: 30px;
+
+}
+#sep2{
+
+    z-index: 1;
+    display: flex;
+    color: white;
+    font-family: Montserrat;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    flex-direction: row;
+
+}
+#sep2-division{
+
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#sep2-division1{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itens-division1{
+
+    text-decoration: underline;
+    color: white;
+
+}
+#sep2-division2{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+#sep2-division2 > .sep2-division2-li{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+.sep2-division2-li > img{
+
+    margin-right: 5px;
+
+}
+.itens-division2{
+
+    text-decoration: underline;
+    color: white;
+
+}
+.itens-division2::after{
+
+    text-decoration: underline;
 
 }
